@@ -3,10 +3,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Contact</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/m-logo1.jpg">
     
+    <title>Contact</title>
+    
+</head>
+<body class="contact-body">
+    <header class="contact-header">
+        <nav class="navigation contact-navigation">
+            <ul class="navigation_bar">
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="../index.html">Home</a></div></li>
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="about.html">About</a></div></li>
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="blog.html">Blog</a></div></li>
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="portfolio.html">Portfolio</a></div></li>
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="skill.html">Skill</a></div></li>
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="cv.html">Cv</a></div></li>
+                <li class="navigation_bar_list"><div class="aside_list_link--effect effect"><a class="navigation_bar_link" href="contact.html">Contact</a></div></li>
+            </ul>
+
+            <aside data-visible="false" class="navigation_aside">
+                <ion-icon aria-controls="side-nav"  aria-expanded="true" name="close-outline" class="navigation_aside_close" id="close-menu"></ion-icon>
+                <ul class="navigation_aside_list">
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="../index.html">Home</a></div></li>
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="about.html">About</a></div></li>
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="blog.html">Blog</a></div></li>
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="portfolio.html">Portfolio</a></div></li>
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="skill.html">Skill</a></div></li>
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="cv.html">Cv</a></div></li>
+                    <li class="navigation_aside_list_indiv"><div class="aside_list_link--effect effect"><a class="navigation_aside_list_link" href="contact.html">Contact</a></div></li>
+                </ul>
+            </aside>
+            <ion-icon aria-controls="side-nav" aria-expanded="false" name="menu-outline" class="navigation_aside_toggle" id="toggle-menu"></ion-icon>
+        </nav> </header>
+    <main class="contact-main">
+        <section class="contact-container">
+            <h1 class="contact-container_header">Contact</h1>
+            <div class="contact-container_underline"></div>
+            <p class="contact-container_paragraph">Have a question or want to work together?</p>
+            <form class="contact-form" action="#" method="post" >
+                <label class="contact-form_lable" for="contact-form_name">Name:</label>
+                <input type="text" name="name" class="contact-form_name" id="contact-form_name" placeholder="Name">
+                <label class="contact-form_lable" for="contact-form_email">Email:</label>
+                <input type="email" name="email" class="contact-form_email" id="contact-form_email"placeholder="Email">
+                <label class="contact-form_lable" for="contact-form_textarea">Your message:</label>
+                <textarea class="contact-form_textarea" id="contact-form_textarea" placeholder="Your message"></textarea>
+                <input type="submit" class="submit" name="Submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_social-medias"><a class="email" href="gemechisurgessa@gmail.com"><i class="fas fa-envelope"> Email</i></a><a class="telegram" href="https://t.me/I4uGOD"><i class="fab fa-telegram-plane"> Telegram</i></a><a class="linkedin" href="https://www.linkedin.com/in/gemechis-urgessa-676609226"><i class="fab fa-linkedin"> LinkedIn</i></a><a class="github" href="https://github.com/GemechisUrgessa"><i class="fab fa-github"> GitHub</i></a></p>
+        <div class="footer_div"><p class="footer_div_content">&copy;2021 Dev-Max</p>
+        <p class="footer_paragraph">Have a ptoject idea in mind? let's work together. </p>
+         <a class="footer_paragraph_link" href="contact.html">Contact</a> 
+         <a class="footer_paragraph_link" href="about.html">About</a></div>
+    </footer>
+<script src="../js/script.js" ></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/b69f587d7d.js" crossorigin="anonymous"></script>    
 </body>
 </html>

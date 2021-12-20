@@ -5,9 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/m-logo1.jpg">
     <title>Home</title>
+    <script src="https://kit.fontawesome.com/b69f587d7d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+<body class="home">
+    <header>
+        <nav class="nav">
+        <h1 class="nav_logo">Dev-Max</h1>
+        <aside data-visible="false" class="aside nav_aside">
+            <ion-icon aria-controls="side-nav-home"  aria-expanded="true" name="close-outline" class="aside_close--home" id="close-menu"></ion-icon>
+            <ul class="aside_list">
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="index.html">Home</a></div></li>
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="html/about.html">About</a></div></li>
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="html/blog.html">Blog</a></div></li>
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="html/portfolio.html">Portfolio</a></div></li>
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="html/skill.html">Skill</a></div></li>
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="html/cv.html">Cv</a></div></li>
+                <li><div class="aside_list_link--effect"><a class="aside_list_link--home" href="html/contact.html">Contact</a></div></li>
+            </ul>
+        </aside>
+        <ion-icon aria-controls="side-nav-home" aria-expanded="false" name="menu-outline" class="aside_toggle--home" id="toggle-menu"></ion-icon>
+        </nav>
+    </header>
+    <main>
+        <div class="animation">
+            <ul class="animation_objects animate">
+                <li class="animation_objects--float"></li>
+                <li class="animation_objects--float"></li>
+                <li class="animation_objects--float"></li>
+                <li class="animation_objects--float"></li>
+                <li class="animation_objects--float"></li>
+            </ul>
+        </div>
+        <section class="intro">
+            <h1>Let's make dream came <i> true</i> </h1>
+            <P class="intro_sub">A designer knows he has achieved perfection 
+                not when there is nothing left to add, 
+            but when there is nothing left to take away</P>
+        </section>
+        <div class="view view--work"><a class="view_about" href="html/about.html">View my work <i class="fas fa-arrow-right"></i></a></div>
+    </main>
+    <script src="js/script_home.js" ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/b69f587d7d.js" crossorigin="anonymous"></script>    
 </body>
 </html>
