@@ -20,6 +20,7 @@ html, body{
     cursor: pointer;
     text-decoration: none;
     transition: text-decoration 3s;
+    padding: 20px;
     
 }
 .view_about:hover {
@@ -96,8 +97,8 @@ a:hover i {
     top: 0;
     inset: 0 20% 0 0; 
     height: 50vh; 
-    width: 50%; 
-    background:#131211; 
+    width: 70%; 
+    background:#49331d; 
     opacity: 1;
     z-index: 1000;
     display: flex;
@@ -122,6 +123,7 @@ a:hover i {
     z-index: 100;
     font-size: 34px;
     color: white;
+    cursor: pointer;
 }
 .aside_toggle--home{
     position: absolute;
@@ -130,6 +132,7 @@ a:hover i {
     z-index: 100;
     font-size: 34px;
     color: rgb(20, 20, 20);
+    cursor: pointer;
 }
 .navigation_aside_close{
     position: absolute;
@@ -138,6 +141,7 @@ a:hover i {
     z-index: 10000;
     font-size: 34px;
     color: white;
+    cursor: pointer;
 }
 .aside_close--home{
     position: absolute;
@@ -146,13 +150,14 @@ a:hover i {
     z-index: 10000;
     font-size: 34px;
     color: white;
+    cursor: pointer;
 }
 .nav_aside {
     position: absolute; 
     top: 0; 
     height: 100vh; 
     width: 100%; 
-    background:#141416; 
+    background:#4e4e6e; 
     opacity: 1;
     z-index: 1000;
     display: flex;
@@ -419,7 +424,7 @@ position: absolute;
 }
 .image-content{
     
-    background-color: rgb(241, 241, 250);
+    background-color: rgb(230, 230, 247);
 } 
 @media screen and (min-width: 900px) {
     .image-content_paragraph{
@@ -674,7 +679,7 @@ position: absolute;
 }
 .blog-section_arti_images{
     max-width: 100%; 
-    min-width: 400px;
+    /* min-width: 400px; */
 }
 .blog-section_arti_sub-headline{
     padding-bottom: 5px;
@@ -697,7 +702,7 @@ position: absolute;
 
 .blog-section_arti_images{
     max-width: 100%;
-    min-width: 350px 
+    /* min-width: 350px  */
     
 }
 .blog-section_arti{
@@ -756,6 +761,7 @@ position: absolute;
 .portfolio-section_arti_heading{
     padding-top: 5px;
     padding-bottom: 5px;
+    color: rgb(121, 10, 10);
 }
 .portfolio-section_arti_images{
     max-width: 100%;
@@ -898,6 +904,7 @@ footer{
     max-width: 950px; 
     margin: 1px auto;
     background-color: white;
+    box-shadow: 10px 10px 15px rgb(235, 218, 203);
 }
 .cv-main-section_container{
     width: 100%;
@@ -924,6 +931,7 @@ footer{
 .cv-main-section-article{
     margin-left: 150px;
     text-align: left;
+    
 }
 .cv-main-section_container_div .fas{
     display: inline-block;
