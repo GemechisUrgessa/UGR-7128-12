@@ -21,6 +21,7 @@ html, body{
     text-decoration: none;
     transition: text-decoration 3s;
     padding: 20px;
+    margin: 0 auto;
     
 }
 .view_about:hover {
@@ -33,18 +34,15 @@ a:hover i {
 .intro{
     color:rgb(10, 10, 10);
     text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 0;
-    width: 100%;
+    margin-top: 250px;
+    width: 60%;
     font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .intro_sub{
-    text-align: center;
-    position: absolute;
-    top: 90%;
-    left: 23%; 
-    width: 55%; 
+    text-align: left;
+
 }
 .fa-arrow-right:hover{
     color: black;
@@ -53,12 +51,10 @@ a:hover i {
 
 .view--work{
     color: rgb(7, 7, 7);
-    position: absolute;
-    left: 45%;
-    bottom: 20%;
     height: auto;
-    width: auto;
+    width: 190px;
     padding: 2px;
+    margin: 0 auto;
     font-weight: bold;
     border: 2px solid rgb(153, 66, 66);
     
@@ -68,14 +64,10 @@ a:hover i {
         font-size: 17px;
     }
 }
-@media  screen and (max-width: 500px) {
-    .view_about{
-        right: 50%;
-}
-}
+
 @media  screen and (max-width: 900px) {
     .view--work{
-        left: 35%;
+        width: 200px;
 }
 }
 
@@ -307,7 +299,7 @@ position: absolute;
 
 .navigation{
     width: 100%;
-    height: 5%;
+    height: 50PX;
     background-color:rgba(180, 49, 49, 0.788);
     border-bottom: 2px solid rgb(143, 240, 17);
 }
@@ -324,7 +316,7 @@ position: absolute;
     float: right;
     padding-right: 15px;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 673px){
     .header_toggle{
         display: none;
     }
