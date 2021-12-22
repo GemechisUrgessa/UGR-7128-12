@@ -217,7 +217,7 @@ a:hover i{
     height: 100vh;
     position: absolute;
     padding-bottom: 0;
-    background-image: url("images/image01.jpg");
+    background-image: url("/images/image01.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
