@@ -16,7 +16,7 @@ html, body{
 }
 
 .view_about{
-    color: black;
+    color:#a83f1f;
     cursor: pointer;
     text-decoration: none;
     transition: text-decoration 3s;
@@ -28,11 +28,11 @@ html, body{
     text-decoration: underline;
     
 }
-a:hover i {
-    color: black;
+a:hover i{
+    color: rgb(110, 6, 6);
 }
 .intro{
-    color:rgb(10, 10, 10);
+    color:#ca7b7b;
     text-align: center;
     margin-top: 250px;
     width: 60%;
@@ -42,10 +42,12 @@ a:hover i {
 }
 .intro_sub{
     text-align: left;
+    margin-bottom: 60px;
+
 
 }
 .fa-arrow-right:hover{
-    color: black;
+    color: rgb(229, 233, 10);
     transform: rotate(90deg); 
 } 
 
@@ -56,6 +58,7 @@ a:hover i {
     padding: 2px;
     margin: 0 auto;
     font-weight: bold;
+    cursor: pointer;
     border: 2px solid rgb(153, 66, 66);
     
 }
@@ -123,7 +126,7 @@ a:hover i {
     right: 10px;
     z-index: 100;
     font-size: 34px;
-    color: rgb(20, 20, 20);
+    color: rgb(241, 129, 129);
     cursor: pointer;
 }
 .navigation_aside_close{
@@ -214,7 +217,7 @@ a:hover i {
     height: 100vh;
     position: absolute;
     padding-bottom: 0;
-    background-image: url("/images/image3.jpg");
+    background-image: url("/images/image01.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
