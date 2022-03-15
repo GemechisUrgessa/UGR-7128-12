@@ -218,6 +218,8 @@ a:hover i{
     position: absolute;
     padding-bottom: 0;
     background-image: url("/images/image01.jpg");
+    background-color:black;
+    color:white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
